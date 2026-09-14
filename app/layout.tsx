@@ -25,8 +25,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="id">
-      <body className={`${inter.variable} flex min-h-screen flex-col`}>
+    <html lang="id" suppressHydrationWarning>
+      <body
+        className={`${inter.variable} flex min-h-screen flex-col`}
+        suppressHydrationWarning
+      >
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

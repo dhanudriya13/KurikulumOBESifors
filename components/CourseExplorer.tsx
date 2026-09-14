@@ -40,7 +40,7 @@ function FilterGroup({
               onClick={() => onChange(opt.value)}
               className={`focus-ring rounded-full border px-3 py-1 text-sm font-medium transition-colors ${
                 active
-                  ? "border-primary bg-primary text-white"
+                  ? "border-primary bg-primary text-ink"
                   : "border-border bg-surface text-muted hover:border-primary/40 hover:text-primary"
               }`}
             >

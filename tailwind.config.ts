@@ -12,8 +12,8 @@ const config: Config = {
         background: "#F8FAFC",
         surface: "#FFFFFF",
         primary: {
-          DEFAULT: "#2563EB",
-          dark: "#1D4ED8",
+          DEFAULT: "#ffc000",
+          dark: "#d99e00",
         },
         ink: "#0F172A",
         muted: "#64748B",

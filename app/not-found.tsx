@@ -10,7 +10,7 @@ export default function NotFound() {
       </p>
       <Link
         href="/"
-        className="focus-ring mt-6 inline-flex items-center gap-1 rounded-md bg-primary px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-primary-dark"
+        className="focus-ring mt-6 inline-flex items-center gap-1 rounded-md bg-primary px-5 py-2.5 text-sm font-semibold text-ink transition-colors hover:bg-primary-dark"
       >
         Kembali ke Beranda
       </Link>

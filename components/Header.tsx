@@ -10,6 +10,7 @@ const navItems = [
   { href: "/cpl", label: "CPL" },
   { href: "/curriculum", label: "Kurikulum" },
   { href: "/teknik-penilaian", label: "Teknik Penilaian" },
+  { href: "/metode-pembelajaran", label: "Metode Pembelajaran" },
 ];
 
 export default function Header() {

@@ -4,7 +4,7 @@ import { teknikPenilaian } from "@/lib/teknik-penilaian";
 export const metadata: Metadata = {
   title: "Teknik Penilaian",
   description:
-    "Kelompok teknik penilaian pembelajaran pada Kurikulum 2024: tes, kuis, penugasan, unjuk kerja, penilaian produk, proyek, kasus, dan presentasi.",
+    "Kelompok teknik penilaian pembelajaran pada Kurikulum 2024: kuis, tes tulis, observasi, tugas kelompok, presentasi, dan tes lisan.",
 };
 
 export default function TeknikPenilaianPage() {
@@ -15,8 +15,11 @@ export default function TeknikPenilaianPage() {
           Teknik Penilaian
         </h1>
         <p className="mt-3 text-base leading-relaxed text-muted">
-          Kelompok teknik penilaian beserta tujuan evaluasi dan contoh
-          implementasinya pada Kurikulum 2024.
+          Kelompok teknik penilaian beserta definisinya pada Kurikulum 2024.
+        </p>
+        <p className="mt-2 text-xs leading-relaxed text-muted">
+          Sumber: Buku Kurikulum Bidang INFOKOM berbasis OBE/KKNI/SKKNI Versi
+          2.0 Tahun 2024
         </p>
       </header>
 
@@ -37,27 +40,11 @@ export default function TeknikPenilaianPage() {
 
             <div className="mt-4">
               <p className="text-xs font-semibold uppercase tracking-wide text-muted">
-                Tujuan Evaluasi
+                Deskripsi
               </p>
               <p className="mt-1.5 text-sm leading-relaxed text-ink">
                 {item.tujuan}
               </p>
-            </div>
-
-            <div className="mt-4">
-              <p className="text-xs font-semibold uppercase tracking-wide text-muted">
-                Contoh Implementasi
-              </p>
-              <ul className="mt-2 flex flex-wrap gap-1.5">
-                {item.contoh.map((c) => (
-                  <li
-                    key={c}
-                    className="rounded-full border border-border bg-background px-3 py-1 text-xs font-medium text-ink"
-                  >
-                    {c}
-                  </li>
-                ))}
-              </ul>
             </div>
           </article>
         ))}
