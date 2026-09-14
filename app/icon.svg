@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="32" fill="#1A1A1A" />
+  <!-- peak of the "A" -->
+  <polygon points="26,24 32,11 38,24 33,27 32,18 31,27" fill="#ffc000" />
+  <!-- lower-left small triangle -->
+  <polygon points="18,48 27,48 23,36" fill="#ffc000" />
+  <!-- right side strip angling up toward the peak -->
+  <polygon points="40,25 35,32 42,48 49,48" fill="#ffc000" />
+</svg>
