@@ -52,7 +52,7 @@
   "courses": [
     {
       "id": "1",
-      "code": null,
+      "code": "SIFS124101",
       "name": "Bahasa Inggris",
       "semester": 1,
       "sks": 2,
@@ -62,7 +62,7 @@
     },
     {
       "id": "2",
-      "code": null,
+      "code": "SIFS124102",
       "name": "Pendidikan Pancasila",
       "semester": 1,
       "sks": 2,
@@ -72,7 +72,7 @@
     },
     {
       "id": "3",
-      "code": null,
+      "code": "SIFS124103",
       "name": "Matematika Teknik",
       "semester": 1,
       "sks": 3,
@@ -82,7 +82,7 @@
     },
     {
       "id": "4",
-      "code": null,
+      "code": "SIFS124104",
       "name": "Sistem Digital",
       "semester": 1,
       "sks": 3,
@@ -92,7 +92,7 @@
     },
     {
       "id": "5",
-      "code": null,
+      "code": "SIFS124105",
       "name": "Pemrograman Dasar",
       "semester": 1,
       "sks": 3,
@@ -102,7 +102,7 @@
     },
     {
       "id": "6",
-      "code": null,
+      "code": "SIFS124106",
       "name": "Sistem Operasi",
       "semester": 1,
       "sks": 3,
@@ -112,7 +112,7 @@
     },
     {
       "id": "7",
-      "code": null,
+      "code": "SIFS124107",
       "name": "Statistik dan Probabilitas",
       "semester": 1,
       "sks": 3,
@@ -123,8 +123,8 @@
     },
     {
       "id": "8",
-      "code": null,
-      "name": "Pendidikan Agama",
+      "code": "SIFS124201",
+      "name": "Pendidikan Agama Hindu",
       "semester": 2,
       "sks": 2,
       "cplIds": [
@@ -133,8 +133,8 @@
     },
     {
       "id": "9",
-      "code": null,
-      "name": "Bahasa Indonesia",
+      "code": "SIFS124202",
+      "name": "Pendidikan Agama Islam",
       "semester": 2,
       "sks": 2,
       "cplIds": [
@@ -143,7 +143,57 @@
     },
     {
       "id": "10",
-      "code": null,
+      "code": "SIFS124203",
+      "name": "Pendidikan Agama Kristen Protestan",
+      "semester": 2,
+      "sks": 2,
+      "cplIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "11",
+      "code": "SIFS124204",
+      "name": "Pendidikan Agama Kristen Katolik",
+      "semester": 2,
+      "sks": 2,
+      "cplIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "12",
+      "code": "SIFS124205",
+      "name": "Pendidikan Agama Buddha",
+      "semester": 2,
+      "sks": 2,
+      "cplIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "13",
+      "code": "SIFS124206",
+      "name": "Pendidikan Agama Konghucu",
+      "semester": 2,
+      "sks": 2,
+      "cplIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "14",
+      "code": "SIFS124207",
+      "name": "Bahasa Indonesia",
+      "semester": 2,
+      "sks": 2,
+      "cplIds": [
+        "4"
+      ]
+    },
+    {
+      "id": "15",
+      "code": "SIFS124208",
       "name": "Matematika Diskrit",
       "semester": 2,
       "sks": 3,
@@ -152,8 +202,8 @@
       ]
     },
     {
-      "id": "11",
-      "code": null,
+      "id": "16",
+      "code": "SIFS124209",
       "name": "Jaringan Komputer",
       "semester": 2,
       "sks": 3,
@@ -162,8 +212,8 @@
       ]
     },
     {
-      "id": "12",
-      "code": null,
+      "id": "17",
+      "code": "SIFS124210",
       "name": "Algoritma dan Struktur Data",
       "semester": 2,
       "sks": 3,
@@ -173,8 +223,8 @@
       ]
     },
     {
-      "id": "13",
-      "code": null,
+      "id": "18",
+      "code": "SIFS124211",
       "name": "Rekayasa Perangkat Lunak",
       "semester": 2,
       "sks": 3,
@@ -183,8 +233,8 @@
       ]
     },
     {
-      "id": "14",
-      "code": null,
+      "id": "19",
+      "code": "SIFS124212",
       "name": "Perancangan Basis Data",
       "semester": 2,
       "sks": 3,
@@ -193,8 +243,8 @@
       ]
     },
     {
-      "id": "15",
-      "code": null,
+      "id": "20",
+      "code": "SIFS124301",
       "name": "Pendidikan Kewarganegaraan",
       "semester": 3,
       "sks": 2,
@@ -203,8 +253,8 @@
       ]
     },
     {
-      "id": "16",
-      "code": null,
+      "id": "21",
+      "code": "SIFS124302",
       "name": "Manajemen Basis Data",
       "semester": 3,
       "sks": 3,
@@ -214,8 +264,8 @@
       ]
     },
     {
-      "id": "17",
-      "code": null,
+      "id": "22",
+      "code": "SIFS124303",
       "name": "Pemrograman Berorientasi Objek",
       "semester": 3,
       "sks": 3,
@@ -225,8 +275,8 @@
       ]
     },
     {
-      "id": "18",
-      "code": null,
+      "id": "23",
+      "code": "SIFS124304",
       "name": "User Experience Design",
       "semester": 3,
       "sks": 3,
@@ -236,8 +286,8 @@
       ]
     },
     {
-      "id": "19",
-      "code": null,
+      "id": "24",
+      "code": "SIFS124305",
       "name": "Pemrograman Web",
       "semester": 3,
       "sks": 3,
@@ -246,8 +296,8 @@
       ]
     },
     {
-      "id": "20",
-      "code": null,
+      "id": "25",
+      "code": "SIFS124306",
       "name": "Jaringan Enterprise",
       "semester": 3,
       "sks": 3,
@@ -256,8 +306,8 @@
       ]
     },
     {
-      "id": "21",
-      "code": null,
+      "id": "26",
+      "code": "SIFS124307",
       "name": "Sistem Informasi Enterprise",
       "semester": 3,
       "sks": 3,
@@ -267,8 +317,8 @@
       ]
     },
     {
-      "id": "22",
-      "code": null,
+      "id": "27",
+      "code": "SIFS124401",
       "name": "THK",
       "semester": 4,
       "sks": 2,
@@ -277,8 +327,8 @@
       ]
     },
     {
-      "id": "23",
-      "code": null,
+      "id": "28",
+      "code": "SIFS124402",
       "name": "Green Information System",
       "semester": 4,
       "sks": 3,
@@ -287,8 +337,8 @@
       ]
     },
     {
-      "id": "24",
-      "code": null,
+      "id": "29",
+      "code": "SIFS124403",
       "name": "Pemrograman Mobile",
       "semester": 4,
       "sks": 3,
@@ -297,8 +347,8 @@
       ]
     },
     {
-      "id": "25",
-      "code": null,
+      "id": "30",
+      "code": "SIFS124404",
       "name": "Manajemen Proses Bisnis",
       "semester": 4,
       "sks": 3,
@@ -307,8 +357,8 @@
       ]
     },
     {
-      "id": "26",
-      "code": null,
+      "id": "31",
+      "code": "SIFS124405",
       "name": "Pemrograman Web Berbasis Framework",
       "semester": 4,
       "sks": 3,
@@ -317,8 +367,8 @@
       ]
     },
     {
-      "id": "27",
-      "code": null,
+      "id": "32",
+      "code": "SIFS124406",
       "name": "Manajemen Investasi SI/TI",
       "semester": 4,
       "sks": 3,
@@ -327,8 +377,8 @@
       ]
     },
     {
-      "id": "28",
-      "code": null,
+      "id": "33",
+      "code": "SIFS124407",
       "name": "Keamanan Sistem Informasi",
       "semester": 4,
       "sks": 3,
@@ -338,7 +388,7 @@
       ]
     },
     {
-      "id": "29",
+      "id": "34",
       "code": null,
       "name": "Lintas Prodi 1",
       "semester": 5,
@@ -348,7 +398,7 @@
       ]
     },
     {
-      "id": "30",
+      "id": "35",
       "code": null,
       "name": "Lintas Prodi 2",
       "semester": 5,
@@ -358,7 +408,7 @@
       ]
     },
     {
-      "id": "31",
+      "id": "36",
       "code": null,
       "name": "Lintas Prodi 3",
       "semester": 5,
@@ -368,7 +418,7 @@
       ]
     },
     {
-      "id": "32",
+      "id": "37",
       "code": null,
       "name": "Lintas Prodi 4",
       "semester": 5,
@@ -378,8 +428,8 @@
       ]
     },
     {
-      "id": "33",
-      "code": null,
+      "id": "38",
+      "code": "SIFS124501",
       "name": "Tata Kelola dan Audit TI",
       "semester": 5,
       "sks": 3,
@@ -388,8 +438,8 @@
       ]
     },
     {
-      "id": "34",
-      "code": null,
+      "id": "39",
+      "code": "SIFS124502",
       "name": "Manajemen Layanan TI",
       "semester": 5,
       "sks": 3,
@@ -398,8 +448,8 @@
       ]
     },
     {
-      "id": "35",
-      "code": null,
+      "id": "40",
+      "code": "SIFS124503",
       "name": "Digital Innovation dan Entrepreneurship",
       "semester": 5,
       "sks": 3,
@@ -408,8 +458,8 @@
       ]
     },
     {
-      "id": "36",
-      "code": null,
+      "id": "41",
+      "code": "SIFS124601",
       "name": "Metode Penelitian SI",
       "semester": 6,
       "sks": 3,
@@ -418,8 +468,8 @@
       ]
     },
     {
-      "id": "37",
-      "code": null,
+      "id": "42",
+      "code": "SIFS124602",
       "name": "Seminar Proposal",
       "semester": 6,
       "sks": 2,
@@ -428,8 +478,8 @@
       ]
     },
     {
-      "id": "38",
-      "code": null,
+      "id": "43",
+      "code": "SIFS124603",
       "name": "Testing dan Implementasi SI",
       "semester": 6,
       "sks": 3,
@@ -439,8 +489,8 @@
       ]
     },
     {
-      "id": "39",
-      "code": null,
+      "id": "44",
+      "code": "SIFS124604",
       "name": "Data Mining",
       "semester": 6,
       "sks": 3,
@@ -450,8 +500,8 @@
       ]
     },
     {
-      "id": "40",
-      "code": null,
+      "id": "45",
+      "code": "SIFS124605",
       "name": "Manajemen Proyek TI",
       "semester": 6,
       "sks": 3,
@@ -460,8 +510,8 @@
       ]
     },
     {
-      "id": "41",
-      "code": null,
+      "id": "46",
+      "code": "SIFS124606",
       "name": "Arsitektur Enterprise",
       "semester": 6,
       "sks": 3,
@@ -470,8 +520,8 @@
       ]
     },
     {
-      "id": "42",
-      "code": null,
+      "id": "47",
+      "code": "SIFS124607",
       "name": "Perencanaan Strategik SI/TI",
       "semester": 6,
       "sks": 3,
@@ -480,8 +530,8 @@
       ]
     },
     {
-      "id": "43",
-      "code": null,
+      "id": "48",
+      "code": "SIFS124608",
       "name": "Sistem Pendukung Keputusan",
       "semester": 6,
       "sks": 3,
@@ -491,8 +541,8 @@
       ]
     },
     {
-      "id": "44",
-      "code": null,
+      "id": "49",
+      "code": "SIFS124609",
       "name": "Business Intelligence",
       "semester": 6,
       "sks": 3,
@@ -502,8 +552,8 @@
       ]
     },
     {
-      "id": "45",
-      "code": null,
+      "id": "50",
+      "code": "SIFS124610",
       "name": "Standar Keamanan Sistem Informasi",
       "semester": 6,
       "sks": 3,
@@ -513,8 +563,8 @@
       ]
     },
     {
-      "id": "46",
-      "code": null,
+      "id": "51",
+      "code": "SIFS124611",
       "name": "Security Operation Center",
       "semester": 6,
       "sks": 3,
@@ -523,8 +573,8 @@
       ]
     },
     {
-      "id": "47",
-      "code": null,
+      "id": "52",
+      "code": "SIFS124701",
       "name": "Magang",
       "semester": 7,
       "sks": 20,
@@ -534,8 +584,8 @@
       ]
     },
     {
-      "id": "48",
-      "code": null,
+      "id": "53",
+      "code": "SIFS124801",
       "name": "Seminar Hasil Penelitian",
       "semester": 8,
       "sks": 4,
@@ -544,8 +594,8 @@
       ]
     },
     {
-      "id": "49",
-      "code": null,
+      "id": "54",
+      "code": "SIFS124802",
       "name": "Ujian Skripsi",
       "semester": 8,
       "sks": 4,
@@ -554,8 +604,8 @@
       ]
     },
     {
-      "id": "50",
-      "code": null,
+      "id": "55",
+      "code": "SIFS124803",
       "name": "Etika Bisnis dan Profesi SI",
       "semester": 8,
       "sks": 2,
@@ -607,39 +657,31 @@
     },
     {
       "courseId": "10",
-      "cplId": "2"
+      "cplId": "4"
     },
     {
       "courseId": "11",
-      "cplId": "1"
+      "cplId": "4"
     },
     {
       "courseId": "12",
-      "cplId": "2"
-    },
-    {
-      "courseId": "12",
-      "cplId": "7"
+      "cplId": "4"
     },
     {
       "courseId": "13",
-      "cplId": "1"
-    },
-    {
-      "courseId": "14",
-      "cplId": "1"
-    },
-    {
-      "courseId": "15",
       "cplId": "4"
     },
     {
-      "courseId": "16",
-      "cplId": "1"
+      "courseId": "14",
+      "cplId": "4"
+    },
+    {
+      "courseId": "15",
+      "cplId": "2"
     },
     {
       "courseId": "16",
-      "cplId": "8"
+      "cplId": "1"
     },
     {
       "courseId": "17",
@@ -654,32 +696,36 @@
       "cplId": "1"
     },
     {
-      "courseId": "18",
-      "cplId": "6"
-    },
-    {
       "courseId": "19",
-      "cplId": "7"
+      "cplId": "1"
     },
     {
       "courseId": "20",
-      "cplId": "1"
-    },
-    {
-      "courseId": "21",
-      "cplId": "1"
-    },
-    {
-      "courseId": "21",
-      "cplId": "3"
-    },
-    {
-      "courseId": "22",
       "cplId": "4"
     },
     {
-      "courseId": "23",
+      "courseId": "21",
+      "cplId": "1"
+    },
+    {
+      "courseId": "21",
       "cplId": "8"
+    },
+    {
+      "courseId": "22",
+      "cplId": "2"
+    },
+    {
+      "courseId": "22",
+      "cplId": "7"
+    },
+    {
+      "courseId": "23",
+      "cplId": "1"
+    },
+    {
+      "courseId": "23",
+      "cplId": "6"
     },
     {
       "courseId": "24",
@@ -687,47 +733,51 @@
     },
     {
       "courseId": "25",
-      "cplId": "3"
-    },
-    {
-      "courseId": "26",
-      "cplId": "7"
-    },
-    {
-      "courseId": "27",
-      "cplId": "8"
-    },
-    {
-      "courseId": "28",
       "cplId": "1"
     },
     {
+      "courseId": "26",
+      "cplId": "1"
+    },
+    {
+      "courseId": "26",
+      "cplId": "3"
+    },
+    {
+      "courseId": "27",
+      "cplId": "4"
+    },
+    {
       "courseId": "28",
-      "cplId": "7"
+      "cplId": "8"
     },
     {
       "courseId": "29",
-      "cplId": "5"
+      "cplId": "7"
     },
     {
       "courseId": "30",
-      "cplId": "5"
+      "cplId": "3"
     },
     {
       "courseId": "31",
-      "cplId": "5"
+      "cplId": "7"
     },
     {
       "courseId": "32",
-      "cplId": "5"
+      "cplId": "8"
     },
     {
       "courseId": "33",
-      "cplId": "8"
+      "cplId": "1"
+    },
+    {
+      "courseId": "33",
+      "cplId": "7"
     },
     {
       "courseId": "34",
-      "cplId": "8"
+      "cplId": "5"
     },
     {
       "courseId": "35",
@@ -735,86 +785,106 @@
     },
     {
       "courseId": "36",
-      "cplId": "6"
-    },
-    {
-      "courseId": "37",
-      "cplId": "6"
-    },
-    {
-      "courseId": "38",
-      "cplId": "1"
-    },
-    {
-      "courseId": "38",
-      "cplId": "8"
-    },
-    {
-      "courseId": "39",
-      "cplId": "3"
-    },
-    {
-      "courseId": "39",
-      "cplId": "7"
-    },
-    {
-      "courseId": "40",
-      "cplId": "3"
-    },
-    {
-      "courseId": "41",
-      "cplId": "8"
-    },
-    {
-      "courseId": "42",
-      "cplId": "8"
-    },
-    {
-      "courseId": "43",
-      "cplId": "3"
-    },
-    {
-      "courseId": "43",
-      "cplId": "7"
-    },
-    {
-      "courseId": "44",
-      "cplId": "3"
-    },
-    {
-      "courseId": "44",
-      "cplId": "7"
-    },
-    {
-      "courseId": "45",
-      "cplId": "7"
-    },
-    {
-      "courseId": "45",
-      "cplId": "8"
-    },
-    {
-      "courseId": "46",
-      "cplId": "1"
-    },
-    {
-      "courseId": "47",
-      "cplId": "1"
-    },
-    {
-      "courseId": "47",
       "cplId": "5"
     },
     {
-      "courseId": "48",
+      "courseId": "37",
+      "cplId": "5"
+    },
+    {
+      "courseId": "38",
+      "cplId": "8"
+    },
+    {
+      "courseId": "39",
+      "cplId": "8"
+    },
+    {
+      "courseId": "40",
+      "cplId": "5"
+    },
+    {
+      "courseId": "41",
       "cplId": "6"
+    },
+    {
+      "courseId": "42",
+      "cplId": "6"
+    },
+    {
+      "courseId": "43",
+      "cplId": "1"
+    },
+    {
+      "courseId": "43",
+      "cplId": "8"
+    },
+    {
+      "courseId": "44",
+      "cplId": "3"
+    },
+    {
+      "courseId": "44",
+      "cplId": "7"
+    },
+    {
+      "courseId": "45",
+      "cplId": "3"
+    },
+    {
+      "courseId": "46",
+      "cplId": "8"
+    },
+    {
+      "courseId": "47",
+      "cplId": "8"
+    },
+    {
+      "courseId": "48",
+      "cplId": "3"
+    },
+    {
+      "courseId": "48",
+      "cplId": "7"
     },
     {
       "courseId": "49",
-      "cplId": "6"
+      "cplId": "3"
+    },
+    {
+      "courseId": "49",
+      "cplId": "7"
     },
     {
       "courseId": "50",
+      "cplId": "7"
+    },
+    {
+      "courseId": "50",
+      "cplId": "8"
+    },
+    {
+      "courseId": "51",
+      "cplId": "1"
+    },
+    {
+      "courseId": "52",
+      "cplId": "1"
+    },
+    {
+      "courseId": "52",
+      "cplId": "5"
+    },
+    {
+      "courseId": "53",
+      "cplId": "6"
+    },
+    {
+      "courseId": "54",
+      "cplId": "6"
+    },
+    {
+      "courseId": "55",
       "cplId": "6"
     }
   ]

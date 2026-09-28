@@ -9,15 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "#F8FAFC",
-        surface: "#FFFFFF",
+        background: "#EAF1F8",
+        surface: "rgba(255, 255, 255, 0.58)",
         primary: {
           DEFAULT: "#ffc000",
           dark: "#d99e00",
         },
-        ink: "#0F172A",
-        muted: "#64748B",
-        border: "#E2E8F0",
+        ink: "#132238",
+        muted: "#5B6B82",
+        border: "rgba(255, 255, 255, 0.72)",
         success: "#16A34A",
         warning: "#D97706",
       },

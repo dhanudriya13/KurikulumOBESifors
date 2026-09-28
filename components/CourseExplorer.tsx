@@ -3,6 +3,7 @@
 import { useDeferredValue, useMemo, useState } from "react";
 import SearchBar from "@/components/SearchBar";
 import CourseCard from "@/components/CourseCard";
+import AgamaGroupCard from "@/components/AgamaGroupCard";
 import {
   getCourses,
   getCpls,
@@ -70,7 +71,6 @@ export default function CourseExplorer() {
     let list = allCourses;
 
     if (q) {
-      // Prioritize direct name matches; fall back to full search.
       const byName = allCourses.filter((c) => c.name.toLowerCase().includes(q));
       if (byName.length > 0) {
         list = byName;
@@ -88,8 +88,16 @@ export default function CourseExplorer() {
     if (sks !== "all") {
       list = list.filter((c) => c.sks === Number(sks));
     }
-    return list;
+
+    // Exclude individual "Pendidikan Agama *" courses from the main list
+    // because they are grouped inside AgamaGroupCard
+    return list.filter(
+      (c) => !c.name.toLowerCase().startsWith("pendidikan agama")
+    );
   }, [allCourses, deferredQuery, semester, cpl, sks]);
+
+  const showGroupCard =
+    query === "" && semester === "all" && cpl === "all" && sks === "all";
 
   const semesterOptions = [
     { value: "all", label: "All" },
@@ -140,8 +148,9 @@ export default function CourseExplorer() {
         {courses.length} mata kuliah ditemukan
       </p>
 
-      {courses.length > 0 ? (
+      {courses.length > 0 || showGroupCard ? (
         <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {showGroupCard && <AgamaGroupCard />}
           {courses.map((course) => (
             <CourseCard key={course.id} course={course} />
           ))}

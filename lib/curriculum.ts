@@ -62,6 +62,13 @@ export function getCoursesBySemester(semester: number): Course[] {
   return data.courses.filter((c) => c.semester === semester);
 }
 
+/** Mata kuliah kelompok "Pendidikan Agama" (MKWU), e.g. Agama Hindu, Islam, Kristen. */
+export function getAgamaCourses(): Course[] {
+  return data.courses.filter((c) =>
+    c.name.toLowerCase().startsWith("pendidikan agama")
+  );
+}
+
 export function getSemesters(): number[] {
   const semesters = new Set(data.courses.map((c) => c.semester));
   return Array.from(semesters).sort((a, b) => a - b);

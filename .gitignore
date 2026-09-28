@@ -8,3 +8,6 @@ next-env.d.ts
 *.log
 .venv
 pdf_text.txt
+.agents
+.opencode
+graphify-out

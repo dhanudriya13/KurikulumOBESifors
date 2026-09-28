@@ -8,6 +8,7 @@ import {
   slugify,
 } from "@/lib/curriculum";
 import CPLBadge from "@/components/CPLBadge";
+import { getCourseLearning } from "@/lib/course-learning";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -34,6 +35,7 @@ export default async function CourseDetailPage({ params }: Props) {
   if (!course) notFound();
 
   const cpls = getCplsForCourse(course.id);
+  const learning = getCourseLearning(course, cpls);
 
   return (
     <div className="mx-auto max-w-content px-4 py-10 sm:px-6 lg:px-8">
@@ -67,6 +69,112 @@ export default async function CourseDetailPage({ params }: Props) {
           </p>
         </div>
       </div>
+
+      <section className="mt-10" aria-labelledby="learning-heading">
+        <div className="flex items-end justify-between gap-4">
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">
+              Course blueprint
+            </p>
+            <h2 id="learning-heading" className="mt-2 text-2xl font-bold text-ink">
+              Capaian dan pembelajaran
+            </h2>
+            <p className="mt-1 text-sm text-muted">
+              Learning outcomes, assessment, and methods
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-5 grid grid-cols-1 gap-4 md:grid-cols-6">
+          <article className="rounded-card border border-border bg-surface p-5 md:col-span-2">
+            <p className="text-xs font-semibold uppercase tracking-wide text-primary">
+              Nama / Name
+            </p>
+            <h3 className="mt-3 text-xl font-bold text-ink">{learning.name.id}</h3>
+            <p className="mt-1 text-sm text-muted">{learning.name.en}</p>
+          </article>
+
+          <article className="rounded-card border border-border bg-surface p-5 md:col-span-4">
+            <p className="text-xs font-semibold uppercase tracking-wide text-primary">
+              CPL / PLO
+            </p>
+            <div className="mt-3 space-y-4">
+              {cpls.map((cpl) => (
+                <div key={cpl.id}>
+                  <p className="text-base font-semibold text-ink">{cpl.code}</p>
+                  <p className="mt-1 text-sm leading-relaxed text-ink">{cpl.formulation}</p>
+                </div>
+              ))}
+              <p className="text-sm leading-relaxed text-muted">{learning.cpl.en}</p>
+            </div>
+          </article>
+
+          <article className="rounded-card border border-border bg-surface p-5 md:col-span-6">
+            <p className="text-xs font-semibold uppercase tracking-wide text-primary">
+              CPMK / Course Learning Outcome
+            </p>
+            <div className="mt-3 grid gap-3 md:grid-cols-2">
+              <p className="text-base leading-relaxed text-ink">{learning.cpmk.id}</p>
+              <p className="text-sm leading-relaxed text-muted">{learning.cpmk.en}</p>
+            </div>
+          </article>
+
+          <article className="rounded-card border border-border bg-surface p-5 md:col-span-4">
+            <p className="text-xs font-semibold uppercase tracking-wide text-primary">
+              Sub-CPMK / Sub-Learning Outcomes
+            </p>
+            <p className="mt-2 text-xs text-muted">
+              Bobot penilaian / Assessment weight: 100%
+            </p>
+            <ol className="mt-4 space-y-4">
+              {learning.subCpmk.map((item, index) => (
+                <li key={item.id} className="grid grid-cols-[2rem_1fr] gap-3">
+                  <span className="flex h-8 w-8 items-center justify-center rounded-full bg-primary/15 text-sm font-bold text-primary">
+                    {index + 1}
+                  </span>
+                  <div>
+                    <div className="flex items-start justify-between gap-3">
+                      <p className="text-sm leading-relaxed text-ink">{item.id}</p>
+                      <span className="shrink-0 rounded-full bg-primary/15 px-2 py-1 text-xs font-bold text-primary">
+                        {item.weight}%
+                      </span>
+                    </div>
+                    <p className="mt-1 text-sm leading-relaxed text-muted">{item.en}</p>
+                  </div>
+                </li>
+              ))}
+            </ol>
+          </article>
+
+          <article className="rounded-card border border-border bg-surface p-5 md:col-span-2">
+            <p className="text-xs font-semibold uppercase tracking-wide text-primary">
+              Teknik Penilaian / Assessment
+            </p>
+            <ul className="mt-4 space-y-3">
+              {learning.assessment.map((item) => (
+                <li key={item.id} className="border-l-2 border-primary/30 pl-3">
+                  <p className="text-sm text-ink">{item.id}</p>
+                  <p className="mt-1 text-xs leading-relaxed text-muted">{item.en}</p>
+                </li>
+              ))}
+            </ul>
+          </article>
+
+          <article className="rounded-card border border-border bg-surface p-5 md:col-span-2">
+            <p className="text-xs font-semibold uppercase tracking-wide text-primary">
+              Metode Pembelajaran / Learning Methods
+            </p>
+            <ul className="mt-4 space-y-3">
+              {learning.method.map((item) => (
+                <li key={item.id} className="border-l-2 border-primary/30 pl-3">
+                  <p className="text-sm text-ink">{item.id}</p>
+                  <p className="mt-1 text-xs leading-relaxed text-muted">{item.en}</p>
+                </li>
+              ))}
+            </ul>
+          </article>
+        </div>
+      </section>
 
       <section className="mt-10" aria-labelledby="cpl-heading">
         <h2
